@@ -1,0 +1,21 @@
+lastAccountName: regeg1
+timestamps:
+  login: 1625746461546
+  logout: 1625746564587
+  lastteleport: 1625746794514
+ipAddress: 25.36.174.43
+lastlocation:
+  world: world
+  x: 490.13018125672056
+  y: 160.28781686508782
+  z: -1667.3918704345906
+  yaw: -226.29645
+  pitch: -10.050015
+godmode: true
+logoutlocation:
+  world: world
+  x: 504.104386813687
+  y: 127.0
+  z: -1545.2697363689688
+  yaw: 91.1052
+  pitch: 64.94997

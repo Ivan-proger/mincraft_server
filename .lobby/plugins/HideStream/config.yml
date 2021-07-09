@@ -1,0 +1,58 @@
+# If you need help with these settings, please visit
+# https://dev.bukkit.org/projects/hidestream/pages/config-explanation 
+
+Enabled: true
+CheckForUpdates: true
+NoCommandPermissionMsg: '&cYou do not have permission to do that!'
+PerPlayerToggle:
+  Enable: false
+Join:
+  HideJoin: true
+  NeedsToBeOnline: 0
+  OnlyForNewPlayers: false
+  OnlyForOldPlayers: false
+  Permissions:
+    UsePermissions: false
+    HideOnlyIfHasPermission: false
+    HideOnlyIfWithoutPermission: false
+  AffectedWorlds:
+  - world
+  - world_nether
+  - world_the_end
+Quit:
+  HideQuit: true
+  NeedsToBeOnline: 0
+  OnlyForNewPlayers: false
+  OnlyForOldPlayers: false
+  Permissions:
+    UsePermissions: false
+    HideOnlyIfHasPermission: false
+    HideOnlyIfWithoutPermission: false
+  AffectedWorlds:
+  - world
+  - world_nether
+  - world_the_end
+Kick:
+  HideKick: true
+  NeedsToBeOnline: 0
+  OnlyForNewPlayers: false
+  OnlyForOldPlayers: false
+  Permissions:
+    UsePermissions: false
+    HideOnlyIfHasPermission: false
+    HideOnlyIfWithoutPermission: false
+  AffectedWorlds:
+  - world
+  - world_nether
+  - world_the_end
+Death:
+  HideDeath: true
+  NeedsToBeOnline: 0
+  Permissions:
+    UsePermissions: false
+    HideOnlyIfHasPermission: false
+    HideOnlyIfWithoutPermission: false
+  AffectedWorlds:
+  - world
+  - world_nether
+  - world_the_end

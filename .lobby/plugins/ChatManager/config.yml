@@ -1,0 +1,47 @@
+# Plugin made by alandioda
+
+# Color codes are supported.
+# &0 = black     | &1 = Dark Blue   | &2 = Dark Green
+# &3 = Dark Aqua | &4 = Dark Red    | &5 = Dark Purple
+# &6 = Gold      | &7 = Gray        | &8 = Dark Gray
+# &9 = Blue      | &a = Green       | &b = Aqua
+# &c = Red       | &d = Light Purple| &e = Yellow
+# &f = White
+# &k = Obfuscated| &l = Bold        | &m = Strikethrough
+# &n = Underline | &o = Italic      | &r = Reset
+
+# Chat structure:
+# <name> will be replaced with the user's name.
+# <prefix> will be replaced with player's prefix.
+# <sufix> will be replaced with player's sufix.
+minecraft_chat: '[<prefix>] <name> <sufix>: '
+costume_chat_style_enabled: true
+
+# Private message structure:
+# <sender> will be replaced with sender's user name.
+# <receiver> will be replaced with receiver's user name.
+private_message_chat: '<sender> > <receiver>: '
+
+# If enabled the players will be able to use color codes in chat
+colorcodes_enabled: false
+
+# Message prefix:
+# Will be shown before every plugins response message.
+message_prefix: '&7[&9&lTest&3&lCraft&7] '
+
+discord_joined_message_enabled: true
+discord_left_message_enabled: true
+# Message structure when a player joines the server.
+# <name> will be replaced with the minecraft user name.
+joined_message: '&a<name> joined the game'
+leave_message: '&a<name> left the game'
+
+# If disabled the join and leave messages will not be
+# displayed in private world chats.
+show_join_leave_messages_in_private_worlds: false
+
+# World names listed under private_world_chats
+# will be in private chat which means only players
+# the same world will be able to talk to each other.
+private_world_chats:
+- TestWorld

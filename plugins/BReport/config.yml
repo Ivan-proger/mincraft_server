@@ -1,0 +1,90 @@
+###########################################################
+#                  BReport by @iFedeFC                    #
+#                                                         #
+# Support discord: https://discordapp.com/invite/gm5gtTS  #
+#                                                         #
+###########################################################
+
+#MySQL allows you to store the reports and to make a web with all the reports.
+MYSQL:
+  ENABLED: false
+  HOST: localhost
+  PORT: 3306
+  USERNAME: root
+  DATABASE: prueba
+  PASSWORD: jyIUtq9YnsGGh8Vk
+
+# Cooldown to report players (seconds)
+Report_Cooldown: 30
+Cooldown_Wait: '&eHey %player%, you must wait &c%time%s &eto report again.'
+
+Player_Offline: '&cSorry, this players isn''t online.'
+Cant_Report_Your_Self: '&cSorry, but you can''t report your self.'
+Cant_Report: 'Sorry, but the player %player% evades this command'
+
+Usage: '&cIncorrect, use: &b/report <player> <reason>'
+No_Permission: '&cYou don''t have permission to use this command!'
+
+Player_Reported: '&aThanks you! &e%player% &ahas been reported!'
+
+#This forces players to use only a specific reason
+Restricted-Reasons: false
+#You can add more report reasons
+Reasons-Allowed:
+ - Reach
+ - KillAira
+ - Fly
+Report-Reason: 'You can not report with that reason. Alone with: &eReach - Fly - KillAura'
+
+
+#Message to the staffs when there is a new report
+Report_Format:
+ - ''
+ - '&e~~~~~~~ &6&LREPORT &e~~~~~~~' 
+ - ''
+ - '&c&lWho report:'
+ - '&7%player%'
+ - '&c&lPlayer Reported:'
+ - '&7%player2%'
+ - ''
+ - '&c&lReason:'
+ - '&a%reason%'
+ - '&c&lServer:'
+ - '&7%server%'
+ - ''
+Report_Format_Footer: '&e~~~~~~~~~~~~~~~'
+Goto_Msg: '&b&lClick Here to check the report'
+Goto_Hover_Msg: '&6Teleport to &e%player%''s &6server &e%server%'
+
+Goto_Connect: '&aYou has been connected to the server'
+Goto_Same_Server: '&cYou are already connected to this server'
+
+Goto-Enabled: true
+Goto-Disabled-Msg: '&cSorry, but goto system is disabled!'
+Goto-Invalid-Server: '&cSorry, but this server is invalid!'
+
+#NOT USE "," if you are using the plugin with MySQL!
+Storege_Format: '&e&l> &c%player2% &7has been reported by &a%player%&7. Reason: &6%reason%&7. &8Date: &b%date%'
+GetReports:
+  Header: '&8&m--------------&r &e&l[&6%player%&e&l]&r &8&m--------------'
+  Footer: '&8&m--------------&r &e&l[&6%player%&e&l]&r &8&m--------------'
+  Usage: '&cIncorrect, usage: /reports <player>'
+Reports_Empty: '&cThis player has no been reported'
+
+History_Deleted: '&cThe &e%player% &creports have been deleted'
+DelHistory_Usage: '&cIncorrect, usage: &7/delreports <player>'
+
+
+#Title Variables
+# %player% - Reporter
+# %player2% - Reported
+# %server% - Server of reported
+# %reason% - Report reason
+Title:
+  Enabled: true
+  Title: '&6&lNEW REPORT!'
+  Sub_Title: '&eReported: &a%player2%'
+  # In Seconds
+  Fade_in: 1
+  Stay: 5
+  Fade_out: 1

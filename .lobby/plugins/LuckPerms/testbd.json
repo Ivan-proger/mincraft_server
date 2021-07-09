@@ -1,0 +1,1169 @@
+{
+  "metadata": {
+    "generatedBy": "Console",
+    "generatedAt": "2021-06-30 15:35:18 MSK"
+  },
+  "groups": {
+    "&5&n&lmarshal": {
+      "nodes": [
+        {
+          "type": "permission",
+          "key": "/me",
+          "value": true
+        },
+        {
+          "type": "display_name",
+          "key": "displayname.Marshal",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.100.&5&n&lMarshal",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.120.&5&nMarshal&c &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.121.&5&n&lMarshal",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.125.&5&nMarshal&c &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.130.&5&n&lMarshal",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.130.&5&n&lMarshal&c &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.325.&5&nMarshal&c &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.326.&5&n&lMarshal&c &f",
+          "value": true
+        },
+        {
+          "type": "suffix",
+          "key": "suffix.100. &6&n&lБогаты Бомж",
+          "value": true
+        },
+        {
+          "type": "suffix",
+          "key": "suffix.100. &6&n&lБогатый Бомж",
+          "value": true
+        },
+        {
+          "type": "suffix",
+          "key": "suffix.100.&6&n&lБогаты Бомж",
+          "value": true
+        }
+      ]
+    },
+    "admin": {
+      "nodes": [
+        {
+          "type": "prefix",
+          "key": "prefix.10.'&c",
+          "value": true,
+          "context": {
+            "server": [
+              "&f'",
+              "[admin"
+            ],
+            "world": "]"
+          }
+        },
+        {
+          "type": "permission",
+          "key": "essentials.fly.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.gamemode.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "bukkit",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "bukkit.broadcast",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "bukkit.broadcast.admin",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "bukkit.broadcast.user",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "bukkit.command",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "bukkit.command.help",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "bukkit.command.plugins",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "bukkit.command.reload",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "bukkit.command.version",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "craftbukkit",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skin",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skin.menu",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skin.player",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skin.preview",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skin.reset",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skin.to",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skin.url",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skull",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skull.player",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skull.to",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "csm.skull.url",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.afk",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.afk.auto",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.back",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.back.into",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.back.into.world",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.back.into.world_nether",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.back.into.world_the_end",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.back.ondeath",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.back.onteleport",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.balancetop",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.balancetop.exclude",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.ban",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.ban.exempt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.chat",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.chat.ignoreexempt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.exempt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.exempt.protect",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.fly",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.fly.safelogin",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.gamemode",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.gamemode.all",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.gamemode.others",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.air",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.bed_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.bedrock",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.bookshelf",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.brick",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.brown_mushroom",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.burning_furnace",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.cactus",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.cake_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.chest",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.clay",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.coal_ore",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.cobblestone",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.cobblestone_stairs",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.crops",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.dead_bush",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.detector_rail",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.diamond_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.diamond_ore",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.diode_block_off",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.diode_block_on",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.dirt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.dispenser",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.double_step",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.fence",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.fire",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.furnace",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.glass",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.glowing_redstone_ore",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.glowstone",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.gold_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.gold_ore",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.grass",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.gravel",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.huge_mushroom_1",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.ice",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.iron_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.iron_door_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.iron_ore",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.jack_o_lantern",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.jukebox",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.ladder",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.lapis_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.lapis_ore",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.lava",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.leaves",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.lever",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.log",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.long_grass",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.mob_spawner",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.monster_eggs",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.mossy_cobblestone",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.netherrack",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.note_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.obsidian",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.piston_base",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.piston_extension",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.piston_moving_piece",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.piston_sticky_base",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.portal",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.powered_rail",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.pumpkin",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.rails",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.red_mushroom",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.red_rose",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.redstone_ore",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.redstone_torch_off",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.redstone_torch_on",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.redstone_wire",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.sand",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.sandstone",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.sapling",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.sign_post",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.smooth_brick",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.snow",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.snow_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.soil",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.soul_sand",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.sponge",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.stained_glass",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.stationary_lava",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.stationary_water",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.step",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.stone",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.stone_button",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.stone_plate",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.sugar_cane_block",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.tnt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.torch",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.trap_door",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.wall_sign",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.water",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.web",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.wood",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.wood_plate",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.wood_stairs",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.wooden_door",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.wool",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.workbench",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.hat.prevent-type.yellow_flower",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.home",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.home.compass",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.invsee",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.invsee.preventmodify",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.keepinv",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.keepxp",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.kick",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.kick.exempt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.kit",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.kit.exemptdelay",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.mail",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.motd",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.mute",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.mute.exempt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.near",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.near.exclude",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.nick",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.nick.allowunsafe",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.seen",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.seen.extra",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.seen.ip",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.seen.location",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.sethome",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.sethome.bed",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.silentjoin",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.silentjoin.vanish",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.silentquit",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.sleepingignored",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.speed",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.sudo",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.sudo.exempt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.teleport",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.teleport.cooldown",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.teleport.cooldown.bypass",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.teleport.cooldown.bypass.back",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.teleport.cooldown.bypass.tpa",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tempban",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.updatecheck",
+          "value": true
+        },
+        {
+          "type": "inheritance",
+          "key": "group.&n&4bandito",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "minecraft.command",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "minecraft.command.gamemode",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.10.&c [ADMIN ] &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.10.&c [ADMIN] &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.10.[ADMIN]",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.100.&4Bandito",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.11.&c [ADMIN] &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.12.&c&n[ADMIN]&f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.12.&n&c[ADMIN] &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.12.&n&c[ADMIN]&f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.12.&n[ADMIN] &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.120.&c&l[ADMIN]&c &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.120.&c&n[ADMIN] &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.120.&c&n[ADMIN]&c &f",
+          "value": true
+        },
+        {
+          "type": "prefix",
+          "key": "prefix.120.&c&n[ADMIN]&f",
+          "value": true
+        },
+        {
+          "type": "suffix",
+          "key": "suffix.10.&c administarator &f",
+          "value": true
+        }
+      ]
+    },
+    "default": {
+      "nodes": []
+    }
+  },
+  "tracks": {},
+  "users": {
+    "f1f1e7ac-c50e-3ae0-8c0e-a54c00e871cc": {
+      "username": "ivan777_rus",
+      "nodes": [
+        {
+          "type": "inheritance",
+          "key": "group.admin",
+          "value": true
+        },
+        {
+          "type": "inheritance",
+          "key": "group.default",
+          "value": true
+        }
+      ]
+    },
+    "5bf6af62-4bf4-3029-a0a5-1f7c733a5046": {
+      "username": "regeg123geg",
+      "nodes": [
+        {
+          "type": "inheritance",
+          "key": "group.&4bandito",
+          "value": true
+        },
+        {
+          "type": "inheritance",
+          "key": "group.&5&n&lmarshal",
+          "value": true
+        },
+        {
+          "type": "inheritance",
+          "key": "group.&n&4bandito",
+          "value": true
+        },
+        {
+          "type": "inheritance",
+          "key": "group.admin",
+          "value": true
+        },
+        {
+          "type": "inheritance",
+          "key": "group.default",
+          "value": true
+        }
+      ]
+    }
+  }
+}

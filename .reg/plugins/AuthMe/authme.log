@@ -1,0 +1,131 @@
+[07-08 12:14:23]: [INFO] SQLite driver loaded
+[07-08 12:14:24]: [INFO] SQLite Setup finished
+[07-08 12:14:24]: [INFO] No supported permissions system found! Permissions are disabled!
+[07-08 12:14:24]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[07-08 12:14:24]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-08 12:14:24]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:92)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-08 12:14:24]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-08 12:14:24]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-08 12:14:24]: [INFO] AuthMe 5.3.2 build n.1726 correctly enabled!
+[07-08 12:15:07]: [FINE] ivan777_rus registered 25.42.83.188
+[07-08 12:15:07]: [FINE] ivan777_rus logged in!
+[07-08 12:20:55]: [INFO] SQLite driver loaded
+[07-08 12:20:55]: [INFO] SQLite Setup finished
+[07-08 12:20:55]: [INFO] No supported permissions system found! Permissions are disabled!
+[07-08 12:20:55]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[07-08 12:20:55]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-08 12:20:55]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:92)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-08 12:20:55]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-08 12:20:55]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-08 12:20:55]: [INFO] AuthMe 5.3.2 build n.1726 correctly enabled!
+[07-08 12:21:29]: [FINE] ivan777_rus logged in!
+[07-08 12:21:42]: [FINE] regeg1 registered 25.36.174.43
+[07-08 12:21:42]: [FINE] regeg1 logged in!
+[07-08 12:46:13]: [FINE] regeg1 logged in!
+[07-08 12:47:49]: [FINE] regeg1 logged in!
+[07-08 12:48:32]: [FINE] regeg1 logged in!
+[07-08 12:50:51]: [FINE] regeg1 logged in!
+[07-08 12:51:44]: [FINE] ivan777_rus used the wrong password
+[07-08 12:51:58]: [FINE] ivan777_rus logged in!
+[07-08 12:52:01]: [FINE] regeg1 logged in!
+[07-08 12:57:32]: [FINE] ivan777_rus used the wrong password
+[07-08 12:57:45]: [FINE] ivan777_rus logged in!
+[07-08 13:23:50]: [FINE] ivan777_rus logged in!
+[07-08 13:24:34]: [FINE] regeg1 logged in!
+[07-08 13:24:55]: [FINE] ivan777_rus logged in!
+[07-08 13:26:12]: [FINE] ivan777_rus logged in!
+[07-08 13:28:02]: [FINE] ivan777_rus logged in!
+[07-08 13:28:11]: [FINE] regeg1 logged in!
+[07-08 13:57:48]: [FINE] regeg1 logged in!
+[07-08 14:44:26]: [INFO] SQLite driver loaded
+[07-08 14:44:26]: [INFO] SQLite Setup finished
+[07-08 14:44:26]: [INFO] No supported permissions system found! Permissions are disabled!
+[07-08 14:44:26]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[07-08 14:44:26]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-08 14:44:26]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:92)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-08 14:44:26]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-08 14:44:26]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-08 14:44:26]: [INFO] AuthMe 5.3.2 build n.1726 correctly enabled!
+[07-08 14:46:51]: [FINE] ivan777_rus logged in!
+[07-08 14:48:14]: [FINE] ivan777_rus logged in!
+[07-08 14:48:54]: [INFO] SQLite driver loaded
+[07-08 14:48:54]: [INFO] SQLite Setup finished
+[07-08 14:48:54]: [INFO] No supported permissions system found! Permissions are disabled!
+[07-08 14:48:54]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[07-08 14:48:54]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-08 14:48:54]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:92)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-08 14:48:54]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-08 14:48:54]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-08 14:48:54]: [INFO] AuthMe 5.3.2 build n.1726 correctly enabled!
+[07-08 14:49:20]: [FINE] ivan777_rus logged in!
+[07-08 15:14:20]: [FINE] regeg1 logged in!
+[07-08 15:24:05]: [FINE] regeg1 logged in!
+[07-08 15:27:54]: [FINE] ivan777_rus logged in!

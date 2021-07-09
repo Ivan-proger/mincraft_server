@@ -1,0 +1,23 @@
+[17:33:28] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:33:29] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[17:33:30] [Worker-Main-12/INFO]: Loaded 7 recipes
+[17:33:32] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[17:33:32] [Server thread/INFO]: Loading properties
+[17:33:33] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-a93cbb1-7a6c3c9 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[17:33:33] [Server thread/INFO]: Debug logging is disabled
+[17:33:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:33:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:33:33] [Server thread/INFO]: Default game type: SURVIVAL
+[17:33:33] [Server thread/INFO]: Generating keypair
+[17:33:33] [Server thread/INFO]: Starting Minecraft server on *:25112
+[17:33:33] [Server thread/INFO]: Using default channel type
+[17:33:35] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.48
+[17:33:35] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.48
+[17:33:36] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[17:33:36] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.48[m
+[17:33:36] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[17:33:36] [Server thread/INFO]: [m
+[17:33:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:33:36] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[17:33:36] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Starting...
+[17:33:36] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Start completed.
