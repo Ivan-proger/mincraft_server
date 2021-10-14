@@ -1,0 +1,145 @@
+bids-menu-name: '&8Просмотр аукциона'
+
+bid-history-item: '358:0'
+bid-history-item-name: '&fИстория ставок'
+bid-history-item-lore:
+  no-bids:
+    - '&7Ставок не было'
+    - '&7этот товар еще.'
+    - ''
+    - '&7Будьте первым, кто сделает ставку!'
+  #The lore of the bid history item is dynamic when
+  #it has bids on it, the structure below repeats itself
+  #at every new bid, adding to the lore
+  #Use %bid-amount% for the amount of the bid
+  #Use %bidder-display-name% for bidder's display name
+  #Use %when-bidded% for when the bid was placed (eg. 2 Days) (Ago is not included so you can modify)
+  bid-structure:
+    - '&8&m--------------'
+    - '&7Ставка: &6%bid-amount% монет'
+    - '&7По: %bidder-display-name%'
+    - '&b%when-bidded% Ago'
+
+#This is the message items with "Ending soon" will give when clicked
+too-late-to-open-now: '&cСлишком поздно открывать это сейчас!'
+
+#When the auction is claimed by the seller, the bid history
+#no longer updates %when-bidded% and the message below is added
+#to the bid history item lore
+#Use %date% for the date of the last updated
+bid-history-last-updated-message: '&8Последнее обновление %date%'
+
+submit-bid-cannot-afford-item: '394'
+#Use %bid-amount% for the needed amount (that the player does not have)
+submit-bid-cannot-afford-item-name: '&6Подать заявку'
+submit-bid-cannot-afford-item-lore:
+  - ''
+  - '&7Новая ставка: &6%bid-amount% монет'
+  - ''
+  - '&cНе могу позволить себе ставку!'
+
+submit-bid-item: '371'
+submit-bid-item-name: '&6Подать заявку'
+submit-bid-item-lore:
+  no-previous-bids:
+    - ''
+    - '&7Новая ставка: &6%bid-amount% монет'
+    - ''
+    - '&eНажмите, чтобы сделать ставку!'
+  #Use %bid-amount% for the amount the bid will have
+  #Use %previous-bid% for the previous bid's amount
+  #Use %coins-to-pay% for the difference between previous bid and actual bid
+  with-previous-bids:
+    - ''
+    - '&7Новая ставка: &6%bid-amount% монет'
+    - '&7Предыдущая ставка: &e%previous-bid% монет'
+    - ''
+    - '&7Ты платишь: &6%coins-to-pay% монет'
+    - ''
+    - '&eНажмите, чтобы сделать ставку!'
+
+collect-bid-item: '41'
+collect-bid-item-name: '&6Собрать с аукциона'
+collect-bid-item-lore:
+  #Use %coins% for the amount of coins the player could collect
+  collect-coins:
+    - ''
+    - '&7У тебя есть &6%coins% монет'
+    - '&7собрать из этого'
+    - '&7аукцион.'
+    - ''
+    - '&eНажмите, чтобы собрать!'
+  collect-item:
+    - ''
+    - '&7У вас есть предметы для'
+    - '&7получить с этого аукциона'
+    - ''
+    - '&eНажмите, чтобы собрать!'
+
+#What amount of the previous bid is needed for a new bid
+#Default Example: to bid over a 100 coins bid you need '100 + 15% from 100' minimum
+#If you remove the % it will just take 15 coins instead of a percent
+bid-step: '15%'
+
+#When a bid is lower than this amount
+#the next bid will jump here
+#Set it to 0 to disable it but make sure you know
+#how to handle it
+bid-jump: 20
+
+edit-bid-item: '266'
+#Use %current-bid% for the amount the player has selected to bid
+edit-bid-item-name: '&fСумма ставки: &6%current-bid% монет'
+#Use %minimum-bid% for the minimum amount you have to bid on the auction
+edit-bid-item-lore:
+   - '&7Вам нужно сделать ставку как минимум'
+   - '&6%minimum-bid% монет &7, чтобы удержать верх'
+   - 'Сделайте ставку на этом аукционе.'
+   - ''
+   - '&7Топовая ставка &7 на аукционе'
+   - '&7конец выигрывает предмет.'
+   - ''
+   - '&7Если не выиграешь, можешь'
+   - '&7Заявите свои ставки монет обратно'
+   - ''
+   - '&eНажми, чтобы изменить сумму!'
+
+#The sign used for editing has the same text
+#as the starting bid on auction creator
+
+#Message for when you try to edit the bid with a value smaller than needed
+edit-bid-deny-message: '&cВаша ставка слишком низкая.'
+
+#Message for when the bid is placed successfully
+placed-bid-message: '&aВаша ставка была успешно размещена!'
+
+#Message for when you have 28 bids (reached the limit)
+max-bids-reached: '&cВы можете делать не более 28 ставок на разных аукционах одновременно..'
+
+#Message sent to players when they get outbidded
+#Use %outbid-player-display-name% for the name of the outbidder
+#Use %top-bid% for the new top bid
+#Use %bid-item% for the name of the item
+outbid-message:
+  - '&6[Auction] &fВаша ставка была перебита %outbid-player-display-name%&f on %bid-item%&f.'
+  - '&fНовая максимальная ставка &6%top-bid% монет&f. &e&lНАЖМИТЕ ДЛЯ ПРОСМОТРА'
+
+#Message sent to the seller when someone bids on their auction
+#Use %bidder% for bidder's display name
+#Use %bid-amount% for the bidded amount
+#Use %bid-item% for the name of the item
+bid-message: '&6[Auction] %bidder% &fпоставить ставку &6%bid-amount% монет &fна ваше %bid-item%&f!'
+
+not-enough-money-bid: '&cУ вас недостаточно денег, чтобы сделать ставку на эту сумму.'
+
+#This message is added to the lore of some items
+#to let the player know it is their own auction
+own-auction-message: '&aЭто ваш собственный аукцион!'
+
+#To prevent a bug where two players bid the same amount
+#on the same auction (that happening when 2 players have the same view auction menu opened
+#at the same time) this message will be sent to the player if the value they try to submit
+#is already in there
+bid-error-message:
+  - '&c[Auction Error] &fПока вы думали отправить кого-то уже ставку.'
+  - '&cПовторное открытие меню...'

@@ -1,0 +1,17 @@
+blocks-menu-item: '4'
+blocks-menu-name: '&eБлоки'
+blocks-menu-lore:
+  - '&8Категория'
+  - ''
+  - '&7Примеры:'
+  - '&8■ &7Земьля'
+  - '&8■ &7Камень'
+  - '&8■ &7Любые остальные блоки'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lПример &6&lПридмета'
+
+custom-item-ids:
+  - '2266'

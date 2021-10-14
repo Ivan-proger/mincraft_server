@@ -1,0 +1,16 @@
+others-menu-item: '32'
+others-menu-name: '&2Другие'
+others-menu-lore:
+  - '&8Категория'
+  - ''
+  - '&7Все, что нет на'
+  - '&7аукционе и не'
+  - '&7в других категориях.'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lПример &6&lПридмета'
+
+custom-item-ids:
+  - '2266'

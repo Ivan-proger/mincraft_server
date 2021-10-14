@@ -1,0 +1,101 @@
+use-buy-it-now: true
+
+buy-it-now-select-price:
+  item-id: '27'
+  #Use %price% for the item price
+  name: '&fЦена товара: &6%price%'
+  lore:
+    - '&7Цена, по которой вы хотите'
+    - '&7продать этот предмет.'
+    - ''
+    - '&7Дополнительная плата: &6+%fee% монет &e(1%)'
+    - ''
+    - '&eНажмите, чтобы редактировать!'
+
+#Use percents from 1 to 100
+buy-it-now-fee: 1
+
+switch-button:
+  switch-to-auction:
+    material: '266'
+    name: '&aПерейти на аукцион'
+    lore:
+      - '&7С традиционных аукционов,'
+      - '&7несколько покупателей соревнуются за'
+      - '&7товар по очереди.'
+      - ''
+      - '&eНажмите, чтобы переключиться!'
+  switch-to-bin:
+    material: 27
+    name: '&aПерейти на BIN'
+    lore:
+      - '&7BIN Аукционы простые.'
+      - ''
+      - '&7Установите цену, тогда один игрок может'
+      - '&7купить товар по этой цене.'
+      - ''
+      - '&8(BIN означает "Купить сейчас")'
+      - ''
+      - '&eНажмите, чтобы переключиться!'
+
+buy-it-now-lore:
+  on-going:
+    - '&8&m---------------------'
+    - '&7Продавец: %display-name-seller%'
+    - '&7Купить сейчас: &6%starting-bid% монет'
+    - ''
+    - '&7Заканчивается через: &e%duration%'
+    - ''
+    - '&eНажмите, чтобы осмотреть!'
+  expired:
+    - '&8&m---------------------'
+    - '&7Продавец: %display-name-seller%'
+    - '&7Купить сейчас: &6%price% монет'
+    - ''
+    - '&7Статус: &cИстекший!'
+    - ''
+    - '&eНажмите, чтобы осмотреть!'
+  #Use %buyer-display-name% for buyer's display name
+  #Use %buyer-name% for buyer's username
+  bought:
+    - '&8&m---------------------'
+    - '&7Продавец: %display-name-seller%'
+    - '&7Цена: &6%price% монет'
+    - ''
+    - '&7Купил: %buyer-display-name%'
+    - ''
+    - '&eНажмите, чтобы осмотреть!'
+
+#Use %item% for item's display name
+#Use %seller-display-name% for seller display's name
+#Use %seller-name% for seller's name
+#Use %coins% for the amount of coins the item was bought for
+bought-item-message: '&eYou purchased &f%item% &efrom %seller-display-name% &efor &6%coins% coins&e!'
+
+#Seller notification for bought item
+bought-seller-notification: '&6[Auction] %bidder-display-name% &fhas bought your %item%&f for &6%price% coins&f!'
+
+sort-item:
+  material: '381'
+  name: '&aBIN Фильтр'
+  show-all: 'Показать все'
+  bin-only: 'BIN Только'
+  auctions-only: 'Только аукционы'
+  click-to-switch: '&eНажмите, чтобы переключить фильтр!'
+
+view-auction-buy-now-button:
+  name: '&6Купить товар прямо сейчас'
+  click-to-buy:
+    material: '371'
+    lore:
+      - ''
+      - '&7Цена: &6%price% монет'
+      - ''
+      - '&eНажмите, чтобы купить!'
+  cannot-afford:
+    material: '394'
+    lore:
+      - ''
+      - '&7Цена: &6%price% монет'
+      - ''
+      - '&cНе могу позволить себе ставку!'

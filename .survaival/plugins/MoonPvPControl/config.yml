@@ -1,0 +1,55 @@
+#Плагин разработан командой кодеров MoonStudio.
+#Если Вы обнаружите какой-либо баг, незамедлительно сообщите нам. 
+#Vk: vk.com/moonstudio_mc
+
+# в секундах
+pvp-time: 10
+
+command:
+  enable: true
+  
+  allowed-commands:
+    - '/m'
+    - '/msg'
+    - '/r'
+
+pvp-watcher:
+  ignore-gm-punch: false
+  title: "&fMoon&aStudio &8| &cВы ударили игрока."
+  subtitle: "&fMoon&aStudio &8| &cВсе приколюхи сброшены!"
+
+disabled-worlds:
+  - 'Creative'
+
+apple-delay:
+  title: '&fMoon&aStudio &8| &cЗадержка'
+  subtitle: '&fMoon&aStudio &8| &cПовторно съесть можно только через %time% секунд.'
+  
+  # в секундах
+  ENCHANTED_GOLDEN_APPLE: 1
+  GOLDEN_APPLE_COOLDOWN: 1
+
+perl-delay:
+  title: '&fMoon&aStudio &8| &cЗадержка'
+  subtitle: '&fMoon&aStudio &8| &cПовторно использовать можно только через %time% секунд.'
+  pearl: 1
+
+messages:
+  deny-command: |
+    &fMoon&aStudio &8| &7Во время боя, эту команду использовать нельзя!
+  pvp-start: |
+    &fMoon&aStudio &8| &7Вы вступили в &cбой!
+    &fMoon&aStudio &8| &7Не выходите с сервера в течении &c15 секунд!
+  pvp-end: |
+    &fMoon&aStudio &8| &7Вы вышли из боя! Можно перезайти на сервер.
+  pvp-leave: |
+    &fMoon&aStudio &8| &7Игрок {player} покинул бой и был наказан!
+
+action-bar:
+  color: 'a'
+  color2: 'c'
+  char:
+    full: '▪'
+    empty: '▫'
+  length: 15
+  format: '&fРежим боя &8[{progress}&8] &f{time}с'

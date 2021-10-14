@@ -1,0 +1,18 @@
+armor-menu-item: '311'
+armor-menu-name: '&bБроня'
+armor-menu-lore:
+  - '&8Категория'
+  - ''
+  - '&7Примеры:'
+  - '&8■ &7Головные уборы'
+  - '&8■ &7Нагрудники'
+  - '&8■ &7Леггинсы'
+  - '&8■ &7Сапоги'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lПример &6&lПридмета'
+
+custom-item-ids:
+  - '2266'

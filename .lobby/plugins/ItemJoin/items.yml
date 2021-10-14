@@ -1,0 +1,15 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explaination; https://github.com/RockinChaos/ItemJoin/wiki
+items-Version: 6
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+items:
+  devine-item:
+    id: 345
+    slot: 0
+    name: '&4&bMenu'
+    lore:
+    - '&7Добро пожалавать епт!'
+  map-item:

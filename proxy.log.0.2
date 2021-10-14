@@ -1,0 +1,38 @@
+17:38:30 [FINE] Using manager EnhancedLocalRepositoryManager with priority 10.0 for libraries
+17:38:30 [INFO] Using standard Java JCE cipher.
+17:38:30 [INFO] Using standard Java compressor.
+17:38:30 [WARNING] ¬ключаю BungeCord BotFilter 1.8.x-1.17.x от vk.com/Leymooo_s (http://rubukkit.org/threads/137038)
+17:38:30 [FINE] Using SLF4J as the default logging framework
+17:38:30 [FINE] -Dio.netty.leakDetection.level: simple
+17:38:30 [FINE] -Dio.netty.leakDetection.targetRecords: 4
+17:38:30 [SEVERE] Exception in thread "main" 
+17:38:30 [SEVERE] java.lang.reflect.InaccessibleObjectException: Unable to make private native java.lang.reflect.Field[] java.lang.Class.getDeclaredFields0(boolean) accessible: module java.base does not "opens java.lang" to unnamed module @3d8314f0
+
+17:38:30 [SEVERE] 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+
+17:38:30 [SEVERE] 	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+
+17:38:30 [SEVERE] 	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+
+17:38:30 [SEVERE] 	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+
+17:38:30 [SEVERE] 	at ru.leymooo.botfilter.config.Config.setAccessible(Config.java:420)
+
+17:38:30 [SEVERE] 	at ru.leymooo.botfilter.config.Config.getField(Config.java:307)
+
+17:38:30 [SEVERE] 	at ru.leymooo.botfilter.config.Config.set(Config.java:54)
+
+17:38:30 [SEVERE] 	at ru.leymooo.botfilter.config.Config.set(Config.java:114)
+
+17:38:30 [SEVERE] 	at ru.leymooo.botfilter.config.Config.load(Config.java:99)
+
+17:38:30 [SEVERE] 	at ru.leymooo.botfilter.config.Settings.reload(Settings.java:238)
+
+17:38:30 [SEVERE] 	at ru.leymooo.botfilter.BotFilter.<init>(BotFilter.java:74)
+
+17:38:30 [SEVERE] 	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:282)
+
+17:38:30 [SEVERE] 	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:49)
+
+17:38:30 [SEVERE] 	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+

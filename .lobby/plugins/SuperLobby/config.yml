@@ -1,0 +1,263 @@
+
+debug: false
+newconfig: true
+update-check: true
+prefix: '&6Pixel Experience &e>> &7'
+messages: EN
+join-clear-inventory: true
+join-clear-chat: true
+join-spawn: true
+command-spawn: true
+info-commands: true
+custom-events: true
+menu: true
+disable-daylight-sensor-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-dropper-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-hopper-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-fence-gate-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-trapdoor-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-button-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-dispenser-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-noteblock-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-armorstands-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-door-interaction:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-rain:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-block-break:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-block-place:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-block-burn:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-drop-item:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-item-move:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-item-damage:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-pick-up-items:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-entity-explode:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-damage:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-hunger:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-death-message:
+  enable: true
+  world:
+  - lobby
+  - auth
+disable-creature-spawn:
+  enable: true
+  world:
+  - lobby
+  - auth
+clear-drops-on-death:
+  enable: true
+  world:
+  - lobby
+  - auth
+lobby-items:
+  enable: true
+  join-server: true
+  respawn: true
+  join-world: true
+  world:
+  - lobby
+void-tp:
+  enable: true
+  level: 0
+  world:
+  - lobby
+  - auth
+always-day:
+  enable: true
+  world:
+  - lobby
+  - auth
+always-night:
+  enable: false
+  world:
+  - lobby
+  - auth
+frame-protect:
+  enable: true
+  world:
+  - lobby
+  - auth
+farm-protect:
+  enable: true
+  world:
+  - lobby
+  - auth
+jump-pads:
+  enable: true
+  plate-block: LIGHT_WEIGHTED_PRESSURE_PLATE
+  plate-block-old: GOLD_PLATE
+  sound: BLOCK_PISTON_EXTEND
+  sound-old: PISTON_EXTEND
+  world:
+  - lobby
+  - auth
+join-boss-bar:
+  enable: true
+  message: '&3Welcome to Pixel Experience!'
+  color: RED
+  style: NOTCHED_20
+  seconds: 10
+join-tab:
+  enable: true
+  update: 1000
+  header: |-
+    &7
+    &f&m--&7&m--&8&m[-&r &6&lPIXEL&f&lEXPERIENCE &7&lNETWORK &8&m-]&7&m--&f&m--
+    &7
+  footer: |-
+    &7
+    &7Website: &7pixelexp.net
+    &7Facebook: &7facebook.PixelExp.net
+    &7Store: &7tienda.PixelExp.net
+    &7
+join-titles:
+  enable: true
+  fade-in: 20
+  stay: 50
+  fade-out: 10
+  title: '&6<player> &bWelcome to'
+  sub-title: '&6&lPIXEL&f&lEXPERIENCE'
+join-motd:
+  enable: true
+  message:
+  - '&a&m---------------------------------------------------'
+  - ' '
+  - '&a# &6&l<player> &7Welcome to &6&lPIXEL&f&lEXPERIENCE!'
+  - ' '
+  - '&a# &7Донатики по расписанию'
+  - ' '
+  - '&a&m---------------------------------------------------'
+join-action-bar:
+  enable: true
+  seconds: 10
+  message: '&6Welcome to Pixel experience!'
+commands-blacklist:
+  enable: true
+  bypass: superlobby.admin
+  list:
+  - /p
+  - /pl
+  - /bukkit:pl
+  - /'?'
+  - /bukkit:?
+  - /help
+  - /bukkit:help
+  - /plugins
+  - /bukkit:plugins
+  - /about
+  - /bukkit:about
+  - /ver
+  - /bukkit:ver
+  - /version
+  - /bukkit:version
+  - /gc
+  - /tps
+  - /me
+  - /bukkit:me
+  - /bukkit:ehelp
+  - /icanhasbukkit
+  - /icanhasspigot
+  - /info
+  - /mc:help
+  - /minecraft:help
+  - /essentials:help
+  - /essentials:ehelp
+  - /perm
+  - /mv
+  - /multiverse-core:mv
+  - /we
+  - /worldedit
+disable-tab-complete:
+  enable: false
+  bypass: superlobby.staff
+  whitelist:
+  - /warp
+  - /menu
+  - /games
+  - /info
+  - /yt
+  - /pay
+  - /tpa
+  - /tpaccept

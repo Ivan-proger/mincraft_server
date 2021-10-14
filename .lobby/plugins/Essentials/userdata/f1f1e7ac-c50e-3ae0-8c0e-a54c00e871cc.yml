@@ -1,21 +1,30 @@
-lastAccountName: ivan777_rus
-timestamps:
-  login: 1625747276019
-  logout: 1625747324183
-  lastteleport: 1625406337276
-ipAddress: 25.42.83.188
-lastlocation:
-  world: world
-  x: 521.8862367473891
-  y: 126.0
-  z: -1538.2662699456018
-  yaw: -267.01794
-  pitch: 9.877249
-logoutlocation:
-  world: world
-  x: 460.29396236327113
-  y: 131.0
-  z: -1587.300000011921
-  yaw: -327.59326
-  pitch: -4.406306
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.42.83.188
 afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1633362272890
+  login: 1633361819160
+money: '0.0'
+last-account-name: ivan777_rus
+logoutlocation:
+  world: 4053d0fe-6cb3-43ba-8cc2-4162fabc0e78
+  world-name: world
+  x: 512.0468627943883
+  y: 139.0
+  z: -1569.9388141643535
+  yaw: 247.40185546875
+  pitch: -18.638959884643555

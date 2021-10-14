@@ -1,0 +1,48 @@
+
+message:
+  enable: true
+  interval: 500
+  list:
+    message1:
+    - ' '
+    - '&e&l>&e&l> &6Самый крутой сервер на планете!'
+    - '&e&l>&e&l> &6https://localhost/'
+    - ' '
+
+titles:
+  enable: true
+  interval: 500
+  list:
+    titles1:
+      fadein: 20S
+      stay: 50
+      fadeout: 10
+      title: '&6&lИграй с друзьями!'
+      subtitle: '&6Все подробности в в компасе.'
+    titles2:
+      fadein: 20
+      stay: 50
+      fadeout: 10
+      title: '&b&4Донат не играет &4роли.'
+      subtitle: '&bОн помагает серверу существовать и полность доброволен!'
+bossbar:
+  enable: true
+  interval: 200
+  list:
+    bossbar1:
+      color: RED
+      style: NOTCHED_20
+      seconds: 10
+      message: '&bАбоба МС'
+    bossbar2:
+      color: PURPLE
+      style: NOTCHED_20
+      seconds: 10
+      message: '&6&Лучший Абоба МС!'
+actionbar:
+  enable: true
+  interval: 300
+  list:
+    actionbar1:
+      stay: 50
+      message: '&bАбоба.net'

@@ -1,0 +1,26 @@
+
+menu:
+  name: '&8<3>  &6Menu &8<3>  &7(Right button)'
+  material: SIGN
+  slot: 1
+  commands:
+  - 'player: menu'
+  delay: 5
+  permission: superlobby.items.menu
+game:
+  name: '&8<3>  &6Game Modes &8<3>  &7(Right button)'
+  material: MILK_BUCKET
+  slot: 2
+  commands:
+  - 'player: game'
+  delay: 5
+  permission: superlobby.items.game
+profile:
+  name: '&8<3>  &6Profile &a<player> &8<3>  &7(Right button)'
+  material: SKULL_ITEM:3
+  slot: 3
+  skull: <player>
+  commands:
+  - 'player: profile'
+  delay: 5
+  permission: superlobby.items.profile

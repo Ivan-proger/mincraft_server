@@ -13,6 +13,21 @@
 config-version: 11
 settings:
   debug: false
+  save-user-cache-on-stop-only: true
+  sample-count: 12
+  bungeecord: false
+  timeout-time: 60
+  restart-on-crash: true
+  restart-script: ./start.sh
+  late-bind: false
+  filter-creative-items: true
+  moved-wrongly-threshold: 50.0
+  moved-too-quickly-multiplier: 50.0
+  player-shuffle: 0
+  int-cache-limit: 1024
+  item-dirty-ticks: 20
+  user-cache-size: 1000
+  netty-threads: 4
   attribute:
     maxHealth:
       max: 2048.0
@@ -20,21 +35,17 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  netty-threads: 4
-  save-user-cache-on-stop-only: false
-  int-cache-limit: 1024
-  item-dirty-ticks: 20
-  user-cache-size: 1000
-  sample-count: 12
-  player-shuffle: 0
-  moved-too-quickly-multiplier: 10.0
-  timeout-time: 60
-  restart-on-crash: true
-  restart-script: ./start.sh
-  bungeecord: true
-  late-bind: false
-  filter-creative-items: true
-  moved-wrongly-threshold: 0.0625
+commands:
+  tab-complete: 0
+  silent-commandblock-console: false
+  replace-commands:
+  - setblock
+  - summon
+  - testforblock
+  - tellraw
+  spam-exclusions:
+  - /skill
+  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
@@ -42,17 +53,6 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
-commands:
-  tab-complete: 0
-  log: true
-  spam-exclusions:
-  - /skill
-  replace-commands:
-  - setblock
-  - summon
-  - testforblock
-  - tellraw
-  silent-commandblock-console: false
 stats:
   disable-saving: false
   forced-stats: {}
@@ -63,37 +63,33 @@ advancements:
 world-settings:
   default:
     verbose: true
-    nerf-spawner-mobs: false
-    merge-radius:
-      item: 2.5
-      exp: 3.0
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
+    hopper-amount: 8
     item-despawn-rate: 6000
-    arrow-despawn-rate: 1200
+    merge-radius:
+      item: 3.5
+      exp: 4.0
     view-distance: 10
     wither-spawn-sound-radius: 0
-    enable-zombie-pigmen-portal-spawns: true
     hanging-tick-frequency: 100
+    enable-zombie-pigmen-portal-spawns: true
+    arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
-    save-structure-info: true
-    mob-spawn-range: 4
+    nerf-spawner-mobs: false
+    seed-village: 10387312
+    seed-feature: 14357617
+    seed-monument: 10387313
+    seed-slime: 987234911
+    dragon-death-sound-radius: 0
+    mob-spawn-range: 2
     entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
-      tick-inactive-villagers: true
-    random-light-updates: false
-    hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
-    max-tnt-per-tick: 100
-    max-tick-time:
-      tile: 50
-      entity: 50
+      animals: 16
+      monsters: 24
+      misc: 8
+      water: 8
+      tick-inactive-villagers: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -111,15 +107,20 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
+    random-light-updates: false
+    save-structure-info: true
+    hunger:
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
+      combat-exhaustion: 0.1
+      regen-exhaustion: 6.0
+      swim-multiplier: 0.01
+      sprint-multiplier: 0.1
+      other-multiplier: 0.0
     squid-spawn-range:
       min: 45.0
-    seed-village: 10387312
-    seed-feature: 14357617
-    seed-monument: 10387313
-    seed-slime: 987234911
-    dragon-death-sound-radius: 0
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 1
-    hopper-amount: 1
-ip_forward: true
+    max-tick-time:
+      tile: 50
+      entity: 50
+    max-tnt-per-tick: 35
+    max-entity-collisions: 8

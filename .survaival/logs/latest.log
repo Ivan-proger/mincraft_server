@@ -1,159 +1,773 @@
-[14:44:31] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:44:31] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[14:44:32] [Worker-Main-12/INFO]: Loaded 7 recipes
-[14:44:34] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[14:44:34] [Server thread/INFO]: Loading properties
-[14:44:35] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-a93cbb1-7a6c3c9 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[14:44:35] [Server thread/INFO]: Debug logging is disabled
-[14:44:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:44:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:44:35] [Server thread/INFO]: Default game type: SURVIVAL
-[14:44:35] [Server thread/INFO]: Generating keypair
-[14:44:35] [Server thread/INFO]: Starting Minecraft server on *:25112
-[14:44:35] [Server thread/INFO]: Using default channel type
-[14:44:37] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.48
-[14:44:37] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.48
-[14:44:38] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
-[14:44:38] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.48[m
-[14:44:38] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
-[14:44:38] [Server thread/INFO]: [m
-[14:44:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[14:44:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
-[14:44:38] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Starting...
-[14:44:38] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Start completed.
-[14:44:39] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
-[14:44:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[14:44:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[14:44:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2227ms)
-[14:44:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:44:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:44:39] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[14:44:39] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[14:44:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:44:39] [Server thread/INFO]: Preparing level "world"
-[14:44:39] [Server thread/INFO]: -------- World Settings For [world] --------
-[14:44:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:44:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:44:39] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:44:39] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:44:39] [Server thread/INFO]: View Distance: 10
-[14:44:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:44:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:44:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:44:39] [Server thread/INFO]: Mob Spawn Range: 6
-[14:44:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:44:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:44:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:44:39] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:44:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:44:39] [Server thread/INFO]: Max TNT Explosions: 100
-[14:44:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:44:40] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[14:44:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:44:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:44:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:44:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:44:40] [Server thread/INFO]: View Distance: 10
-[14:44:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:44:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:44:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:44:40] [Server thread/INFO]: Mob Spawn Range: 6
-[14:44:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:44:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:44:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:44:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:44:40] [Server thread/INFO]: Max TNT Explosions: 100
-[14:44:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:44:40] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[14:44:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[14:44:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[14:44:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[14:44:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[14:44:40] [Server thread/INFO]: View Distance: 10
-[14:44:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[14:44:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[14:44:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[14:44:40] [Server thread/INFO]: Mob Spawn Range: 6
-[14:44:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[14:44:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Potato Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Vine Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[14:44:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[14:44:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[14:44:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[14:44:40] [Server thread/INFO]: Max TNT Explosions: 100
-[14:44:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[14:44:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:44:41] [Server thread/INFO]: Preparing spawn area: 0%
-[14:44:41] [Server thread/INFO]: Preparing spawn area: 0%
-[14:44:41] [Server thread/INFO]: Preparing spawn area: 0%
-[14:44:41] [Server thread/INFO]: Preparing spawn area: 0%
-[14:44:41] [Server thread/INFO]: Time elapsed: 1790 ms
-[14:44:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:44:43] [Server thread/INFO]: Preparing spawn area: 0%
-[14:44:43] [Server thread/INFO]: Preparing spawn area: 0%
-[14:44:43] [Server thread/INFO]: Preparing spawn area: 0%
-[14:44:43] [Server thread/INFO]: Preparing spawn area: 0%
-[14:44:43] [Worker-Main-16/INFO]: Preparing spawn area: 83%
-[14:44:44] [Worker-Main-15/INFO]: Preparing spawn area: 83%
-[14:44:44] [Worker-Main-16/INFO]: Preparing spawn area: 83%
-[14:44:45] [Worker-Main-16/INFO]: Preparing spawn area: 83%
-[14:44:45] [Worker-Main-9/INFO]: Preparing spawn area: 83%
-[14:44:46] [Worker-Main-8/INFO]: Preparing spawn area: 85%
-[14:44:46] [Worker-Main-13/INFO]: Preparing spawn area: 88%
-[14:44:47] [Worker-Main-10/INFO]: Preparing spawn area: 91%
-[14:44:48] [Worker-Main-10/INFO]: Preparing spawn area: 94%
-[14:44:48] [Worker-Main-15/INFO]: Preparing spawn area: 96%
-[14:44:48] [Worker-Main-11/INFO]: Preparing spawn area: 99%
-[14:44:48] [Server thread/INFO]: Time elapsed: 7032 ms
-[14:44:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:44:49] [Server thread/INFO]: Preparing spawn area: 0%
-[14:44:49] [Worker-Main-10/INFO]: Preparing spawn area: 83%
-[14:44:49] [Worker-Main-16/INFO]: Preparing spawn area: 83%
-[14:44:50] [Server thread/INFO]: Time elapsed: 1446 ms
-[14:44:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:44:50] [Server thread/INFO]: Done (10.624s)! For help, type "help"
+[14:20:29] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:20:30] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[14:20:31] [Worker-Main-12/INFO]: Loaded 7 recipes
+[14:20:34] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[14:20:34] [Server thread/INFO]: Loading properties
+[14:20:34] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-a93cbb1-7a6c3c9 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[14:20:34] [Server thread/INFO]: Debug logging is disabled
+[14:20:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:20:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:20:34] [Server thread/INFO]: Default game type: SURVIVAL
+[14:20:34] [Server thread/INFO]: Generating keypair
+[14:20:35] [Server thread/INFO]: Starting Minecraft server on *:25112
+[14:20:35] [Server thread/INFO]: Using default channel type
+[14:20:37] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[14:20:42] [Server thread/WARN]: Legacy plugin Vault v1.5.6-b49 does not specify an api-version.
+[14:20:42] [Server thread/WARN]: Legacy plugin MoonPvPControl v1.0 does not specify an api-version.
+[14:20:42] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[14:20:42] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.0
+[14:20:42] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.0 is now loaded, injecting!
+[14:20:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[14:20:42] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[14:20:42] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[14:20:42] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[14:20:42] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[14:20:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:20:42] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[14:20:42] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[14:20:42] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.48
+[14:20:43] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[14:20:43] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.4
+[14:20:43] [Server thread/INFO]: [AuctionMaster] Loading AuctionMaster v3.2
+[14:20:43] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
+[14:20:44] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@12d407c]
+[14:20:44] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v4.0.3
+[14:20:44] [Server thread/INFO]: [TAB] Loading TAB v2.8.8
+[14:20:44] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[14:20:44] [Server thread/INFO]: [MoonPvPControl] Loading MoonPvPControl v1.0
+[14:20:44] [Server thread/INFO]: [ProtectionStones] Loading ProtectionStones v2.8.0
+[14:20:44] [Server thread/INFO]: [AntiRelog] Loading AntiRelog v3.0.8
+[14:20:44] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.48
+[14:20:45] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[14:20:45] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.48[m
+[14:20:45] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[14:20:45] [Server thread/INFO]: [m
+[14:20:45] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:20:45] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[14:20:45] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Starting...
+[14:20:45] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Start completed.
+[14:20:45] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[14:20:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:20:46] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:20:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2056ms)
+[14:20:46] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[14:20:46] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:20:46] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[14:20:46] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:20:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
+[14:20:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:20:46] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[14:20:48] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:20:48] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[14:20:48] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[14:20:48] [Server thread/INFO]: [WorldEdit]   
+[14:20:48] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[14:20:48] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[14:20:48] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[14:20:48] [Server thread/INFO]: [WorldEdit]   
+[14:20:48] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[14:20:48] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[14:20:48] [Server thread/INFO]: [WorldEdit]   
+[14:20:48] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[14:20:48] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[14:20:48] [Server thread/INFO]: [WorldEdit]   
+[14:20:48] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[14:20:48] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:20:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:20:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:20:48] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[14:20:48] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[14:20:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:20:48] [Server thread/INFO]: Preparing level "world"
+[14:20:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:20:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:20:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:20:48] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:20:48] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:20:48] [Server thread/INFO]: View Distance: 10
+[14:20:48] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:20:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:20:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:20:48] [Server thread/INFO]: Mob Spawn Range: 6
+[14:20:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:20:48] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:20:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:20:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:20:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:20:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:20:48] [Server thread/INFO]: Max TNT Explosions: 100
+[14:20:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:20:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:20:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:20:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:20:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:20:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:20:49] [Server thread/INFO]: View Distance: 10
+[14:20:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:20:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:20:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:20:49] [Server thread/INFO]: Mob Spawn Range: 6
+[14:20:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:20:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:20:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:20:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:20:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:20:49] [Server thread/INFO]: Max TNT Explosions: 100
+[14:20:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:20:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:20:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:20:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:20:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:20:49] [Server thread/INFO]: View Distance: 10
+[14:20:49] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:20:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:20:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:20:49] [Server thread/INFO]: Mob Spawn Range: 6
+[14:20:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:20:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:20:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:20:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:20:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:20:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:20:49] [Server thread/INFO]: Max TNT Explosions: 100
+[14:20:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:20:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:51] [Server thread/INFO]: Time elapsed: 1820 ms
+[14:20:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:20:52] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:52] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:52] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:52] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:53] [Worker-Main-16/INFO]: Preparing spawn area: 83%
+[14:20:53] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[14:20:54] [Worker-Main-10/INFO]: Preparing spawn area: 83%
+[14:20:54] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[14:20:55] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[14:20:55] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[14:20:56] [Worker-Main-11/INFO]: Preparing spawn area: 86%
+[14:20:56] [Worker-Main-16/INFO]: Preparing spawn area: 88%
+[14:20:57] [Worker-Main-9/INFO]: Preparing spawn area: 91%
+[14:20:57] [Worker-Main-11/INFO]: Preparing spawn area: 93%
+[14:20:58] [Worker-Main-17/INFO]: Preparing spawn area: 94%
+[14:20:58] [Worker-Main-11/INFO]: Preparing spawn area: 97%
+[14:20:58] [Server thread/INFO]: Time elapsed: 7909 ms
+[14:20:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:20:59] [Server thread/INFO]: Preparing spawn area: 0%
+[14:20:59] [Server thread/INFO]: Preparing spawn area: 4%
+[14:20:59] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[14:21:00] [Worker-Main-15/INFO]: Preparing spawn area: 94%
+[14:21:00] [Server thread/INFO]: Time elapsed: 1646 ms
+[14:21:00] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[14:21:00] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[14:21:00] [Server thread/INFO]: [ClearLag] Loading modules...
+[14:21:00] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[14:21:00] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[14:21:00] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[14:21:00] [Thread-14/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[14:21:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.0
+[14:21:00] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.4
+[14:21:00] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[14:21:01] [Server thread/INFO]: [AuctionMaster] Enabling AuctionMaster v3.2
+[14:21:01] [Thread-14/INFO]: [ClearLag] No updates found!
+[14:21:02] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Deliveries SQL.
+[14:21:02] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Auctions Database SQL.
+[14:21:02] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Auctions Player List SQL.
+[14:21:02] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Preview Data SQL.
+[14:21:02] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v4.0.3
+[14:21:02] [Server thread/WARN]: [ChestCommands] Couldn't find Vault and a compatible economy plugin! Money-related features will not work.
+[14:21:02] [Server thread/INFO]: [TAB] Enabling TAB v2.8.8
+[14:21:02] [Server thread/INFO]: [0;37;22m[TAB] Server version: 1.16.4 (v1_16_R3)[m
+[14:21:02] [Server thread/INFO]: [0;31;1m[TAB] File [0;33;1mplugins\TAB\errors.txt[0;31;1m exists and is not empty. Please take a look at the errors and try to correct them. You can also join our discord for assistance. After you resolve them, delete the file.[m
+[14:21:02] [Server thread/INFO]: [0;33;1m[TAB] There was 1 startup warning.[m
+[14:21:02] [Server thread/INFO]: [0;32;1m[TAB] Enabled in 83ms[m
+[14:21:02] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:21:02] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:21:02] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:21:03] [Thread-16/INFO]: [0;32;1m[TAB] Version 2.9.2 is out! Your version: 2.8.8[m
+[14:21:03] [Thread-16/INFO]: [0;32;1m[TAB] Get the update at https://www.spigotmc.org/resources/83967/[m
+[14:21:03] [Server thread/INFO]: [MoonPvPControl] Enabling MoonPvPControl v1.0
+[14:21:03] [Server thread/ERROR]: Error occurred while enabling MoonPvPControl v1.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: Lcom/earth2me/essentials/Essentials;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[?:1.8.0_291]
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source) ~[?:1.8.0_291]
+	at java.lang.Class.getDeclaredFields(Unknown Source) ~[?:1.8.0_291]
+	at ua.badwolf.moon.MoonPvPControl.l.h(Unknown Source) ~[?:?]
+	at ua.badwolf.moon.MoonPvPControl.l.n(Unknown Source) ~[?:?]
+	at ua.badwolf.moon.MoonPvPControl.PvPManager.<init>(PvPManager.java:59) ~[?:?]
+	at ua.badwolf.moon.MoonPvPControl.Core.onEnable(Core.java:13) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:494) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:408) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:435) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:218) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:809) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_291]
+Caused by: java.lang.ClassNotFoundException: com.earth2me.essentials.Essentials
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_291]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:167) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:96) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_291]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_291]
+	... 17 more
+[14:21:03] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.8.0
+[14:21:03] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[14:21:03] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[14:21:03] [Server thread/WARN]: [ProtectionStones] No economy plugin found by Vault! There will be no economy support!
+[14:21:03] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI not found! There will be no PlaceholderAPI support.
+[14:21:03] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[14:21:06] [Server thread/WARN]: [ProtectionStones] Loaded class org.apache.commons.io.IOUtils from Chatty v2.19.4 which is not a depend, softdepend or loadbefore of this plugin.
+[14:21:06] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[14:21:06] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[14:21:06] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[14:21:06] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[14:21:06] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[14:21:06] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[14:21:06] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[14:21:06] [Server thread/INFO]: [AntiRelog] Enabling AntiRelog v3.0.8
+[14:21:06] [Server thread/WARN]: Can't set value to 'private java.util.List ru.leymooo.antirelog.config.Settings.disabledWorlds (List)', because 'disabledWorlds' is not set or null
+[14:21:06] [Server thread/INFO]: [AntiRelog] Detected version: 1.16.4
+[14:21:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:21:07] [Server thread/INFO]: Done (19.014s)! For help, type "help"
+[14:21:07] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[14:21:07] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 16 (your version is 1.8.0_291). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[14:21:07] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:21:07] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[14:21:07] [Craft Scheduler Thread - 4/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[14:21:07] [Craft Scheduler Thread - 4/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[14:21:07] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.0.1, you're on: 4.0.0
+[14:22:01] [User Authenticator #1/INFO]: UUID of player ivan777_rus is f1f1e7ac-c50e-3ae0-8c0e-a54c00e871cc
+[14:22:01] [pool-13-thread-7/INFO]: [0;31;1m[TAB] Group "[0;33;1mmoderator[0;31;1m" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "[0;33;1mmoderator[0;31;1m" into [0;33;1mgroup-sorting-priority-list in config.yml[0;31;1m.[m
+[14:22:01] [Server thread/INFO]: ivan777_rus[/25.42.83.188:56396] logged in with entity id 157 at ([world]50.65188153837575, 78.0, -227.27245052608043)
+[14:22:16] [Server thread/INFO]: ivan777_rus issued server command: /gamemode creative
+[14:22:16] [Server thread/INFO]: [ivan777_rus: Set own game mode to Creative Mode]
+[14:22:40] [Server thread/INFO]: ivan777_rus issued server command: /gamemode survival
+[14:22:40] [Server thread/INFO]: [ivan777_rus: Set own game mode to Survival Mode]
+[14:22:46] [Server thread/INFO]: ivan777_rus issued server command: /gamemode creative
+[14:22:46] [Server thread/INFO]: [ivan777_rus: Set own game mode to Creative Mode]
+[14:23:06] [Server thread/INFO]: ivan777_rus issued server command: /pl
+[14:24:51] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[14:24:51] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[14:24:51] [Server thread/INFO]: Debug logging is disabled
+[14:24:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:24:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:24:51] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:24:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:24:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:24:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:24:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:24:51] [Server thread/INFO]: View Distance: 10
+[14:24:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:24:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:24:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:24:51] [Server thread/INFO]: Mob Spawn Range: 6
+[14:24:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:24:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:24:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:24:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:24:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:24:51] [Server thread/INFO]: Max TNT Explosions: 100
+[14:24:51] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:24:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:24:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:24:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:24:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:24:51] [Server thread/INFO]: View Distance: 10
+[14:24:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:24:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:24:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:24:51] [Server thread/INFO]: Mob Spawn Range: 6
+[14:24:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:24:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:24:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:24:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:24:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:24:51] [Server thread/INFO]: Max TNT Explosions: 100
+[14:24:51] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:24:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:24:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:24:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:24:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:24:51] [Server thread/INFO]: View Distance: 10
+[14:24:51] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:24:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:24:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:24:51] [Server thread/INFO]: Mob Spawn Range: 6
+[14:24:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:24:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[14:24:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:24:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:24:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:24:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:24:51] [Server thread/INFO]: Max TNT Explosions: 100
+[14:24:51] [Server thread/INFO]: [AntiRelog] Disabling AntiRelog v3.0.8
+[14:24:51] [Server thread/INFO]: [ProtectionStones] Disabling ProtectionStones v2.8.0
+[14:24:51] [Server thread/INFO]: [MoonPvPControl] Disabling MoonPvPControl v1.0
+[14:24:51] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.5+3827266
+[14:24:51] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[14:24:51] [Server thread/INFO]: [TAB] Disabling TAB v2.8.8
+[14:24:51] [Server thread/INFO]: [0;32;1m[TAB] Disabled in 1ms[m
+[14:24:51] [Server thread/INFO]: [ChestCommands] Disabling ChestCommands v4.0.3
+[14:24:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.5+57d5ac9
+[14:24:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[14:24:51] [Server thread/INFO]: [AuctionMaster] Disabling AuctionMaster v3.2
+[14:24:51] [Server thread/INFO]: [Chatty] Disabling Chatty v2.19.4
+[14:24:51] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[14:24:51] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.3.48
+[14:24:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[14:24:51] [Server thread/INFO]: [LuckPerms] Closing messaging service...
+[14:24:51] [Server thread/INFO]: [LuckPerms] Closing storage...
+[14:24:51] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Shutdown initiated...
+[14:24:51] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Shutdown completed.
+[14:24:51] [Server thread/INFO]: [LuckPerms] Goodbye!
+[14:24:51] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.0.0
+[14:24:51] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[14:24:51] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[14:24:51] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[14:24:51] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[14:24:51] [Server thread/INFO]: Loaded 7 recipes
+[14:24:52] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[14:24:52] [Server thread/INFO]: Loaded 7 recipes
+[14:24:53] [Server thread/WARN]: Legacy plugin Vault v1.5.6-b49 does not specify an api-version.
+[14:24:53] [Server thread/WARN]: Legacy plugin MoonPvPControl v1.0 does not specify an api-version.
+[14:24:53] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[14:24:53] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.0.0
+[14:24:53] [Server thread/INFO]: [ViaVersion] ViaVersion 4.0.0 is now loaded, injecting!
+[14:24:53] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[14:24:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[14:24:53] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[14:24:53] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[14:24:53] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[14:24:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:24:53] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[14:24:53] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[14:24:53] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[14:24:53] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.48
+[14:24:54] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[14:24:54] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.4
+[14:24:54] [Server thread/INFO]: [AuctionMaster] Loading AuctionMaster v3.2
+[14:24:54] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.5+57d5ac9
+[14:24:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1be2e86]
+[14:24:54] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v4.0.3
+[14:24:54] [Server thread/INFO]: [TAB] Loading TAB v2.8.8
+[14:24:54] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.5+3827266
+[14:24:54] [Server thread/INFO]: [MoonPvPControl] Loading MoonPvPControl v1.0
+[14:24:54] [Server thread/INFO]: [ProtectionStones] Loading ProtectionStones v2.8.0
+[14:24:54] [Server thread/INFO]: [AntiRelog] Loading AntiRelog v3.0.8
+[14:24:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.48
+[14:24:54] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[14:24:54] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.3.48[m
+[14:24:54] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[14:24:54] [Server thread/INFO]: [m
+[14:24:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:24:54] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[14:24:54] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Starting...
+[14:24:54] [Server thread/WARN]: [Server thread] INFO me.lucko.luckperms.lib.hikari.HikariDataSource - luckperms-hikari - Start completed.
+[14:24:54] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[14:24:55] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:24:55] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:24:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1742ms)
+[14:24:56] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[14:24:56] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:24:56] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[14:24:56] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:24:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.5+57d5ac9
+[14:24:56] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:24:56] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[14:24:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[14:24:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:24:58] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:24:58] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[14:24:58] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[14:24:58] [Server thread/INFO]: [WorldEdit] ====================================================
+[14:24:58] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[14:24:58] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[14:24:58] [Server thread/INFO]: [ClearLag] Loading modules...
+[14:24:58] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[14:24:58] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[14:24:58] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[14:24:58] [Thread-34/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[14:24:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.0.0
+[14:24:58] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.4
+[14:24:58] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[14:24:58] [Server thread/INFO]: [AuctionMaster] Enabling AuctionMaster v3.2
+[14:24:58] [Thread-34/INFO]: [ClearLag] No updates found!
+[14:24:58] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Deliveries SQL.
+[14:24:58] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Auctions Database SQL.
+[14:24:58] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Auctions Player List SQL.
+[14:24:58] [Server thread/INFO]: [AuctionMaster] Succesfully connected to the Preview Data SQL.
+[14:24:58] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v4.0.3
+[14:24:58] [Server thread/INFO]: [0;31;22m[ChestCommands] [0;31;1mFatal unexpected error while enabling plugin:
+[14:24:58] [Server thread/INFO]:  
+[14:24:58] [Server thread/INFO]: java.lang.NullPointerException
+[14:24:58] [Server thread/INFO]: 	at me.filoghost.chestcommands.fcommons.logging.Log.warning(Log.java:32)
+[14:24:58] [Server thread/INFO]: 	at me.filoghost.chestcommands.fcommons.logging.Log.warning(Log.java:28)
+[14:24:58] [Server thread/INFO]: 	at me.filoghost.chestcommands.ChestCommands.onCheckedEnable(ChestCommands.java:70)
+[14:24:58] [Server thread/INFO]: 	at me.filoghost.chestcommands.fcommons.BaseJavaPlugin.onEnable(BaseJavaPlugin.java:21)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:494)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:408)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.reload(CraftServer.java:881)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.Bukkit.reload(Bukkit.java:651)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:763)
+[14:24:58] [Server thread/INFO]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:748)
+[14:24:58] [Server thread/INFO]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:387)
+[14:24:58] [Server thread/INFO]: 	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:356)
+[14:24:58] [Server thread/INFO]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1008)
+[14:24:58] [Server thread/INFO]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:847)
+[14:24:58] [Server thread/INFO]: 	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:164)
+[14:24:58] [Server thread/INFO]: 	at java.lang.Thread.run(Unknown Source)
+[14:24:58] [Server thread/INFO]: 
+[14:24:58] [Server thread/INFO]:  
+[14:24:58] [Server thread/INFO]: The plugin has been disabled.
+[14:24:58] [Server thread/INFO]:  [m
+[14:24:58] [Server thread/INFO]: [TAB] Enabling TAB v2.8.8
+[14:24:58] [Server thread/INFO]: [0;37;22m[TAB] Server version: 1.16.4 (v1_16_R3)[m
+[14:24:58] [Server thread/INFO]: [0;31;1m[TAB] File [0;33;1mplugins\TAB\errors.txt[0;31;1m exists and is not empty. Please take a look at the errors and try to correct them. You can also join our discord for assistance. After you resolve them, delete the file.[m
+[14:24:58] [Server thread/INFO]: [0;31;1m[TAB] Group "[0;33;1mmoderator[0;31;1m" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "[0;33;1mmoderator[0;31;1m" into [0;33;1mgroup-sorting-priority-list in config.yml[0;31;1m.[m
+[14:24:58] [Server thread/INFO]: [0;33;1m[TAB] There was 1 startup warning.[m
+[14:24:58] [Server thread/INFO]: [0;32;1m[TAB] Enabled in 66ms[m
+[14:24:58] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.5+3827266
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[14:24:58] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[14:24:58] [Server thread/INFO]: [WorldGuard] Loading region data...
+[14:24:58] [Server thread/INFO]: [MoonPvPControl] Enabling MoonPvPControl v1.0
+[14:24:58] [Server thread/ERROR]: Error occurred while enabling MoonPvPControl v1.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: Lcom/earth2me/essentials/Essentials;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[?:1.8.0_291]
+	at java.lang.Class.privateGetDeclaredFields(Unknown Source) ~[?:1.8.0_291]
+	at java.lang.Class.getDeclaredFields(Unknown Source) ~[?:1.8.0_291]
+	at ua.badwolf.moon.MoonPvPControl.l.h(Unknown Source) ~[?:?]
+	at ua.badwolf.moon.MoonPvPControl.l.n(Unknown Source) ~[?:?]
+	at ua.badwolf.moon.MoonPvPControl.PvPManager.<init>(PvPManager.java:59) ~[?:?]
+	at ua.badwolf.moon.MoonPvPControl.Core.onEnable(Core.java:13) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:494) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:408) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.reload(CraftServer.java:881) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.Bukkit.reload(Bukkit.java:651) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:763) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchServerCommand(CraftServer.java:748) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.handleCommandQueue(DedicatedServer.java:387) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.b(DedicatedServer.java:356) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.a(MinecraftServer.java:1008) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:847) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_291]
+Caused by: java.lang.ClassNotFoundException: com.earth2me.essentials.Essentials
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:1.8.0_291]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:167) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:96) ~[spigot-1.16.4.jar:git-Spigot-a93cbb1-7a6c3c9]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_291]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_291]
+	... 24 more
+[14:24:58] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.8.0
+[14:24:58] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[14:24:58] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[14:24:58] [Thread-36/INFO]: [0;32;1m[TAB] Version 2.9.2 is out! Your version: 2.8.8[m
+[14:24:58] [Thread-36/INFO]: [0;32;1m[TAB] Get the update at https://www.spigotmc.org/resources/83967/[m
+[14:24:58] [Server thread/WARN]: [ProtectionStones] No economy plugin found by Vault! There will be no economy support!
+[14:24:58] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI not found! There will be no PlaceholderAPI support.
+[14:24:58] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[14:24:58] [Server thread/WARN]: [ProtectionStones] Loaded class org.apache.commons.io.IOUtils from Chatty v2.19.4 which is not a depend, softdepend or loadbefore of this plugin.
+[14:24:58] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[14:24:58] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[14:24:58] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[14:24:59] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[14:24:59] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[14:24:59] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[14:24:59] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[14:24:59] [Server thread/INFO]: [AntiRelog] Enabling AntiRelog v3.0.8
+[14:24:59] [Server thread/WARN]: Can't set value to 'private java.util.List ru.leymooo.antirelog.config.Settings.disabledWorlds (List)', because 'disabledWorlds' is not set or null
+[14:24:59] [Server thread/INFO]: [AntiRelog] Detected version: 1.16.4
+[14:24:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:24:59] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[14:24:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8332ms or 166 ticks behind
+[14:24:59] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4/5 (754)
+[14:24:59] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 16 (your version is 1.8.0_291). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[14:24:59] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:24:59] [Craft Scheduler Thread - 15/INFO]: [Vault] Checking for Updates ... 
+[14:24:59] [Craft Scheduler Thread - 15/WARN]: [Vault] Stable Version: 1.7.3 is out! You are still running version: 1.5.6
+[14:24:59] [Craft Scheduler Thread - 15/WARN]: [Vault] Update at: http://dev.bukkit.org/server-mods/vault
+[14:24:59] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.0.1, you're on: 4.0.0
+[14:24:59] [Server thread/INFO]: [0;31;22m[ChestCommands] [0;31;1mFatal error while enabling the plugin. Check previous logs for more information.[m
+[14:25:10] [Server thread/INFO]: ivan777_rus issued server command: /ps
+[14:25:16] [Server thread/INFO]: ivan777_rus issued server command: /ps help 2
+[14:25:27] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[14:25:27] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[14:25:27] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[14:25:27] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[14:26:17] [Server thread/INFO]: ivan777_rus issued server command: /op
+[14:28:56] [Server thread/INFO]: ivan777_rus issued server command: /gamemode survival
+[14:28:56] [Server thread/INFO]: [ivan777_rus: Set own game mode to Survival Mode]
+[14:29:10] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[14:29:10] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[14:29:10] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[14:29:10] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[14:29:25] [Server thread/INFO]: ivan777_rus issued server command: /gamemode creative
+[14:29:25] [Server thread/INFO]: [ivan777_rus: Set own game mode to Creative Mode]
+[14:32:43] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[14:32:43] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[14:32:43] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[14:32:43] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[14:33:53] [Server thread/INFO]: ivan777_rus issued server command: /ps
+[14:34:02] [Server thread/INFO]: ivan777_rus issued server command: /ps get
+[14:34:13] [Server thread/INFO]: ivan777_rus issued server command: /ps get
+[14:34:22] [Server thread/INFO]: ivan777_rus issued server command: /ps get 64
+[14:34:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[14:34:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[14:35:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[14:37:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[14:39:21] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[14:39:21] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[14:39:21] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[14:39:21] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[14:39:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[14:43:21] [Server thread/INFO]: ivan777_rus has made the advancement [Hidden in the Depths]
+[14:47:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[14:47:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[14:51:28] [Server thread/INFO]: ivan777_rus issued server command: /gamemode survival
+[14:51:28] [Server thread/INFO]: [ivan777_rus: Set own game mode to Survival Mode]
+[14:52:04] [Server thread/INFO]: ivan777_rus lost connection: Disconnected
+[14:52:04] [Server thread/INFO]: > ffff ivan777_rus left the server.
+[14:53:57] [User Authenticator #2/INFO]: UUID of player ivan777_rus is f1f1e7ac-c50e-3ae0-8c0e-a54c00e871cc
+[14:53:58] [Server thread/INFO]: ivan777_rus[/25.42.83.188:56916] logged in with entity id 3961 at ([world]-1.3217912184674283, 49.0, -249.30000001192093)
+[14:54:07] [Server thread/INFO]: ivan777_rus issued server command: /gamemode creative
+[14:54:07] [Server thread/INFO]: [ivan777_rus: Set own game mode to Creative Mode]
+[14:55:37] [Async Chat Thread - #0/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [mffff ivan777_rus[0;30;1m: [0;37;1m????????[m
+[14:56:13] [Async Chat Thread - #0/INFO]: [0;33;1m[[0;33;22mLocal[0;33;1m] [mffff ivan777_rus[0;30;1m: [0;37;1msdffdsa[m
+[15:03:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:04:59] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:04:59] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:04:59] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:04:59] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:05:25] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:05:25] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:05:25] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:05:25] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:05:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:05:53] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:05:53] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:05:53] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:05:53] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:05:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:06:16] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:06:16] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:06:16] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:06:16] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:06:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:07:05] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:07:05] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:07:05] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:07:05] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:07:21] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:07:21] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:07:21] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:07:21] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:07:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:08:24] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:08:24] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:08:24] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:08:24] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:08:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:08:37] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:08:37] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:08:37] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:08:37] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:08:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:11:19] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:11:19] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:11:19] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:11:19] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:11:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:11:57] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:11:57] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:11:57] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:11:57] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:11:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:12:00] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:12:00] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:12:00] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:12:00] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:12:21] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:12:21] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:12:21] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:12:21] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:12:22] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:12:22] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:12:22] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:12:22] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:12:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:13:04] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:13:04] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:13:04] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:13:04] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:13:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:15:35] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:15:35] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:15:35] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:15:35] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:15:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:21:36] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:21:36] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:21:36] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:21:36] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:21:46] [Server thread/INFO]: ivan777_rus issued server command: /gamemode survival
+[15:21:46] [Server thread/INFO]: [ivan777_rus: Set own game mode to Survival Mode]
+[15:21:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:22:15] [Server thread/INFO]: ivan777_rus issued server command: /gamemode creative
+[15:22:15] [Server thread/INFO]: [ivan777_rus: Set own game mode to Creative Mode]
+[15:22:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:24:15] [Server thread/INFO]: ivan777_rus issued server command: /ps off
+[15:24:20] [Server thread/INFO]: ivan777_rus issued server command: /ps stop
+[15:25:27] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:25:27] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:25:27] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:25:27] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:25:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:26:11] [Server thread/INFO]: ivan777_rus issued server command: /ps reload
+[15:26:11] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:26:11] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[15:26:11] [Server thread/WARN]: [ProtectionStones] Vault is not enabled! Economy functions (renting & buying) will not work!
+[15:26:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:49:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:49:53] [Server thread/INFO]: ivan777_rus issued server command: /ps home
+[15:49:58] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:50:01] [Server thread/INFO]: ivan777_rus issued server command: /ps home
+[15:50:06] [Server thread/INFO]: ivan777_rus issued server command: /ps home
+[15:50:28] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[15:53:26] [Server thread/INFO]: ivan777_rus lost connection: Disconnected
+[15:53:26] [Server thread/INFO]: > ffff ivan777_rus left the server.

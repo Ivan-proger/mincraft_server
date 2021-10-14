@@ -1,0 +1,17 @@
+consumables-menu-item: '260'
+consumables-menu-name: '&cРасходные материалы'
+consumables-menu-lore:
+  - '&8Категория'
+  - ''
+  - '&7Примеры:'
+  - '&8■ &7Зелья'
+  - '&8■ &7Еда'
+  - '&8■ &7Книги'
+
+#If you have custom items that you want to be in this
+#category, specify their name here
+custom-item-names:
+  - '&e&lПример &6&lПридмета'
+
+custom-item-ids:
+  - '2266'

@@ -36,7 +36,7 @@ bars:
     style: "PROGRESS"
     color: "%animation:barcolors%"
     progress: "100" # in %
-    text: "&fWebsite: &bwww.domain.com"
+    text: "&fWebsite: &bxx.com"
   test:
     permission-required: false
     style: PROGRESS
